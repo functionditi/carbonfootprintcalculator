@@ -1,154 +1,18 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <script src="./p5.js"></script>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js"></script>
     <script src="./p5.serialport.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script> -->
 
-    <title>BioInterfaces</title>
-</head>
-<body>
-
-    <script src="./script.js"></script>
-   
-
+    <link rel="stylesheet" type="text/css" href="style.css">
     
-    <br>
-    <br>
-    
-    <br>
-    <br>
-    <section class="blue-class" id="about">
-        <div class="row">
-            <div class="column">
-                <h1 id="main-title">The Carbon Footprint Calculator</h1>
-            </div> 
-          
-            <div class="column" >
-                <p>
-                See how your habits and lifestyle add up ecologically. Approach the teacher's table to take the test. 
-                </p>
-            </div> 
-            <div class="column" >
-            </div>
-           
+    <meta charset="utf-8" />
 
-          </div>
-   
-</section>
-    
-
-      <br>
-      <br>
-      <hr>
-      <br>
-      <br>
-
-      <section class="blue-class" id="about">
-        <div class="row">
-            <div class="column">
-                <h4>Food</h4>
-            </div> 
-            <div class="column">
-                <h4>Commute</h4>
-            </div> 
-            <div class="column">
-                <h4>Shopping</h4>
-            </div> 
-            <div class="column">
-                <h4>Reacreation</h4>
-            </div> 
-            <div class="column">
-                <h4>Home</h4>
-            </div> 
-            <div class="column">
-                <h4>Travel</h4>
-            </div> 
-          </div>
-   
-    </section>
-    <br>
-    <br>
-    <section class="blue-class" id="about">
-        <div class="row">
-            <div class="column">
-                <h2 id="food-value">0</h2>
-            </div> 
-            <div class="column">
-                <h2 id="commute-value">0</h2>
-            </div> 
-            <div class="column">
-                <h2 id="shopping-value">0</h2>
-            </div> 
-            <div class="column">
-                <h2 id="recreational-value">0</h2>
-            </div> 
-            <div class="column">
-                <h2 id="home-value">0</h2>
-            </div> 
-            <div class="column">
-                <h2 id="travel-value">0</h2>
-            </div> 
-           
-            
-          </div>
-   
-    </section>
-    <br>
-    <br>
-    
-    <section class="blue-class" id="about">
-        <div class="row">
-            <div class="column">
-               
-            </div> 
-            <div class="column">
-               
-            </div> 
-            <div class="column" style="flex-grow: 2;">
-               <h2>Your Carbon Footprint =</h2>
-            </div> 
-            <div class="column" style="flex-grow: 2;">
-                <h1 id="total-value">12.7</h1>
-             </div> 
-            
-            
-          </div>
-   
-    </section>
-
-
-
-     
-
-
-
- 
- 
-
-    
-  
-    
-
-<script>
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
-    
-    for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.maxHeight){
-          content.style.maxHeight = null;
-        } else {
-          content.style.maxHeight = content.scrollHeight + "px";
-        } 
-      });
-    }
-    </script>
-
-</body>
+  </head>
+  <body>
+    <main>
+    </main>
+    <script src="sketch.js"></script>
+  </body>
 </html>
