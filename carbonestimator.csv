@@ -11,15 +11,15 @@ shopping,9,"Minimalist, reuse, repair, recycle",0.5,tiny
 shopping,10,"Go shopping sometimes, no preference on goods origin, recycle a little bit",2.5,tiny
 shopping,11,"Go shopping often, prefer less packaging, no preference on goods origin, recycle all I can",3.5,small
 shopping,12,"Go shopping often, prefer nice packaging, prefer international goods, don't recycle",9.5,
-recreation,13,I only do outdoor physical activities that are carbon neutral,0,
-recreation,14,"Sometimes go out to bar, movies, resto",1,tiny
-recreation,15,"Often go out to bar, movies, restaurants",1.5,tiny
-recreation,16,"I like carbon intensive activities (motorbiking, motorboating, ...)",2,medium
-home,17,1-5 Room HDB Flat,0.5,tiny
-home,18,Executive HDB Flat or Condo,1,tiny
-home,19,Terrace home,1.25,small
-home,20,I live in a bungalow,3,medium
-flight,21,"I don't fly, or I carbon offset my flight",0,
-flight,22,Fly a few times in S.E. Asia,1,tiny
-flight,23,A few flights within S.E. Asia + a few long distance flights per year,5,
-flight,24,I fly short distance monthly and/or have several long distance flights per year and/or fly first class or business class,10,
+home,13,1-5 Room HDB Flat,0.5,tiny
+home,14,Executive HDB Flat or Condo,1,tiny
+home,15,Terrace home,1.5,small
+home,16,I live in a bungalow,3,medium
+flight,17,"I don't fly, or I carbon offset my flight",0,
+flight,18,Fly a few times in S.E. Asia,1,tiny
+flight,19,A few flights within S.E. Asia + a few long distance flights per year,5,
+flight,20,I fly short distance monthly and/or have several long distance flights per year and/or fly first class or business class,10,
+recreation,21,I only do outdoor physical activities that are carbon neutral,0,
+recreation,22,"Sometimes go out to bar, movies, resto",1,tiny
+recreation,23,"Often go out to bar, movies, restaurants",1.5,tiny
+recreation,24,"I like carbon intensive activities (motorbiking, motorboating, ...)",2,medium
